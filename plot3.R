@@ -6,6 +6,7 @@
 plot3 <- function()
 {
   dates <- c("01/02/2007", "02/02/2007" ) 
+  library(dplyr)
   plot_3(dates)
 }
 
